@@ -1,0 +1,27 @@
+.contentTag[title*="@"] {
+    color: #000 !important;
+    background-color: #fff;
+    font-size: 10px;
+    padding: 2px 11px 2px 2px;
+    margin-right: 40px;
+    width: auto;
+}
+.contentTag[title*="@"] .contentMatch {
+    color: #000 !important;
+    margin: 0;
+}
+.contentTag[title*="@"] > span.contentUnderline {
+	display: none;
+}
+.contentTag[title*="@"] > span {
+	margin: 0 -47px 0px -9px;
+    color: #fff !important;
+    background: #F0C02A;
+    padding: 2px 8px;
+}
+.contentTag[title*="@"] span {
+    text-decoration: none !important;
+}
+.contentTag[title*="@"]:hover {
+    background-color: #000;
+}
