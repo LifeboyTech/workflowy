@@ -16,7 +16,7 @@
 .contentTag[title*="@"] > span {
 	margin: 0 -47px 0px -9px;
     color: #fff !important;
-    background: #F0C02A;
+    background: #f3d500;
     padding: 2px 8px;
 }
 .contentTag[title*="@"] span {
@@ -24,4 +24,7 @@
 }
 .contentTag[title*="@"]:hover {
     background-color: #000;
+}
+.contentBold {
+	color: #000000;
 }
